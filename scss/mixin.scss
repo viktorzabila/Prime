@@ -24,12 +24,12 @@
 	}
 }
 @mixin phones() {
-	@media screen and (max-width: 520px) {
+	@media screen and (max-width: 320px) {
 		@content;
 	}
 }
-@mixin s-phones() {
-	@media screen and (max-width: 375px) {
+@mixin phones-l() {
+	@media screen and (max-width: 478px) {
 		@content;
 	}
 }
